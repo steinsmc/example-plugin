@@ -1,0 +1,7 @@
+---
+name: Example Plugin
+stub: src/Example
+main: Example
+namespace: Example\
+author: dhdj
+...
