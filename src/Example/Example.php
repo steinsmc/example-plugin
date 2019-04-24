@@ -18,7 +18,7 @@ class Example extends PluginBase implements Listener
         Logger::printLine('I AM LOADING!!!!!',Logger::LOG_INFORM);
     }
     public function onLoaded(){
-        Logger::printLine('ALL PLUGINS ARE LOADED!!!!1',Logger::LOG_INFORM);
+        Logger::printLine('ALL PLUGINS ARE LOADED!!!!',Logger::LOG_INFORM);
     }
     public function getName(){
         return 'Example Plugin';
