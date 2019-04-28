@@ -11,7 +11,7 @@ use Amadeus\Plugin\Listener\Listener;
 
 class Example extends PluginBase implements Listener
 {
-    public function __construct(){
+    public function __construct($directory){
         //Process::getPluginManager()->register($this,'Example');
     }
     public function onLoading(){
